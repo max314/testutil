@@ -7,7 +7,9 @@ import android.view.View;
 public class MyActivity extends Activity {
 
     String command = "busybox ls -1 /system/etc/bootanimation  > /sdcard/1234.txt 2>&1";
+    String command1 = "busybox ls -1 /system  > /sdcard/syst.txt 2>&1";
     private static LogHelper Log = new LogHelper(MyActivity.class);
+    private String string;
 
     /**
      * Called when the activity is first created.
@@ -53,5 +55,9 @@ public class MyActivity extends Activity {
         } catch (Throwable e) {
             Log.e("3", e);
         }
+    }
+
+    public void On4Click(View view) {
+        command = command1;
     }
 }
