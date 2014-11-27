@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0" android:onClick="On0Click"/>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1" android:onClick="On1Click"/>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2" android:onClick="On2Click"/>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="3" android:onClick="On3Click" />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World, MyActivity"
+            />
+</LinearLayout>
+
