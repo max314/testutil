@@ -8,6 +8,7 @@
     <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1" android:onClick="On1Click"/>
     <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2" android:onClick="On2Click"/>
     <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="3" android:onClick="On3Click" />
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="set command 1" android:onClick="On4Click" />
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
